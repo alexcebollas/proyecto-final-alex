@@ -86,3 +86,13 @@ footer {
     width: 100%;
 }
 
+#Ofertas .precio{
+    text-decoration: line-through;
+font-size: 20px;
+font-weight: bold;
+}
+
+.article image{
+    height: 200px;
+    width: 200px;
+}
