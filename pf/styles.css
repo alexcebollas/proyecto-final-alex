@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,6 +6,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
 }
+
 
 header {
     background-color: #af0000;
@@ -27,7 +29,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 15px;
 }
 
 nav ul li a {
@@ -77,7 +79,7 @@ button:hover {
 }
 
 footer {
-    background-color: #333;
+    background-color: #af0000;
     color: white;
     text-align: center;
     padding: 10px ;
@@ -86,13 +88,35 @@ footer {
     width: 100%;
 }
 
-#Ofertas .precio{
+#Ofertas .precio1{
     text-decoration: line-through;
-    font-size: 20px;
-    font-weight: bold;
+    margin-right: 10px;
 }
 
-.section .article{
-    display: inline-flex;
-    gap: 10px;
+#Ofertas .precio2{
+    color: #af0000;
+}
+
+#Bambas{
+    display: flex;
+    gap: 20px;
+}
+
+#Ropa{
+    display: flex;
+    gap: 20px;
+}
+
+#Accesorios{
+    display: flex;
+    gap: 20px;
+}
+
+#Ofertas{
+    display: flex;
+    gap: 20px;
+}
+
+.container{
+    width: 1910px;
 }
