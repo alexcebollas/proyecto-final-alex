@@ -24,7 +24,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    background-color: #333;
+    background-color: #af0000;
     margin: 0;
 }
 
@@ -47,11 +47,11 @@ nav ul li a:hover {
 
 section {
     padding: 20px;
-    text-align: center;
 }
 
 h2 {
     color: #af0000;
+    text-align: center;
 }
 
 article {
@@ -59,8 +59,9 @@ article {
     margin: 20px auto;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0);
+    box-shadow: 0 0 10px #ffffff00;
     max-width: 400px;
+    text-align: center;
 }
 
 button {
@@ -85,7 +86,7 @@ footer {
     padding: 10px ;
     position: relative;
     bottom: 0;
-    width: 100%;
+    width: 1910px;
 }
 
 #Ofertas .precio1{
@@ -120,3 +121,4 @@ footer {
 .container{
     width: 1910px;
 }
+
